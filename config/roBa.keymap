@@ -16,7 +16,7 @@ u#include <behaviors.dtsi>
 };
 
 &trackball {
-    // jjautomouse-layer = <7>;
+    // uautomouse-layer = <7>;
     scroll-layers = <5>;
 
     // arrows {
