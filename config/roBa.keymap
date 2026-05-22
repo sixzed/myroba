@@ -88,10 +88,10 @@
 
         default_layer {
             bindings = <
-&kp Q        &kp W            &kp E              &kp R        &kp T                                           &kp Y        &kp U        &kp I                &kp O       &kp P
-&mt LCTRL A  &mt LGUI S       &mt LALT D         &mt LSHFT F  &kp G        &kp ESCAPE        &kp DELETE       &kp H        &mt RSHFT J  &lt 7 K              &mt RGUI L  &lt 5 SEMICOLON
-&kp Z        &kp X            &kp C              &kp V        &kp B        &kp CAPSLOCK      &kp PRINTSCREEN  &kp N        &kp M        &mt RIGHT_ALT COMMA  &kp DOT     &mt RCTRL SLASH
-&mo 6        &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &lt 4 TAB    &lt 5 SPACE  &lt 2 ENTER       &lt 1 BACKSPACE  &lt 3 RSHFT                                                &lt 8 K_MUTE
+&kp Q             &kp W     &kp E         &kp R      &kp T                                         &kp Y      &kp U  &kp I                &kp O    &kp P
+&kp A             &kp S     &kp D         &kp F      &kp G      &kp ESCAPE        &kp DELETE       &kp H      &kp J  &lt 4 K              &kp L    &lt 5 SEMICOLON
+&kp Z             &kp X     &kp C         &kp V      &kp B      &kp CAPSLOCK      &kp PRINTSCREEN  &kp N      &kp M  &mt RIGHT_ALT COMMA  &kp DOT  &mt RCTRL SLASH
+&kp LEFT_CONTROL  &kp LGUI  &kp LEFT_ALT  &lt 3 TAB  &kp SPACE  &lt 2 ENTER       &lt 1 BACKSPACE  &kp RSHFT                                       &kp RIGHT_CONTROL
             >;
         };
 
@@ -106,37 +106,10 @@
 
         NUM {
             bindings = <
-&kp MINUS  &kp N7        &kp N8        &kp N9        &kp N0                         &trans  &trans  &trans  &trans  &trans
-&kp SQT    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp GRAVE  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans        &trans        &trans        &trans     &trans      &trans  &trans                          &trans
-            >;
-        };
-
-        Nav {
-            bindings = <
-&trans    &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans      &trans         &trans    &trans
-&kp HOME  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &kp RSHIFT  &kp RIGHT_ALT  &kp RGUI  &kp RCTRL
-&trans    &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans      &trans         &trans    &trans
-&trans    &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                       &trans
-            >;
-        };
-
-        symbols {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans            &trans             &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans            &trans             &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                      &trans
-            >;
-        };
-
-        SCROLL {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp MINUS  &kp N7        &kp N8        &kp N9        &kp N0                         &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
+&kp SQT    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans     &trans      &trans  &trans  &trans            &trans             &trans         &trans
+&kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp GRAVE  &trans      &trans  &trans  &trans            &trans             &trans         &trans
+&trans     &trans        &trans        &trans        &trans     &trans      &trans  &trans                                                      &trans
             >;
         };
 
@@ -151,19 +124,19 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans     &trans  &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp LCLK  &trans  &mkp RCLK  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MCLK  &trans  &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&trans    &kp LC(LS(TAB))   &kp UP_ARROW    &kp LC(TAB)        &trans                       &trans  &trans     &trans  &trans     &trans
+&kp HOME  &kp LEFT          &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp END  &trans      &trans  &trans  &mkp LCLK  &trans  &mkp RCLK  &trans
+&trans    &kp LG(LS(LEFT))  &trans          &kp LG(LS(RIGHT))  &trans   &trans      &trans  &trans  &mkp MCLK  &trans  &trans     &trans
+&trans    &trans            &trans          &trans             &trans   &trans      &trans  &trans                                &trans
             >;
         };
 
-        layer_8 {
+        SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                           &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &bootloader  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
