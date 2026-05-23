@@ -43,13 +43,13 @@ layers:
   - {t: ENTER, h: NUM}
   - {t: BACKSPACE, h: FUNCTION}
   - RSHFT
-  - RIGHT CONTROL
+  - RGUI
   FUNCTION:
-  - AC UNDO
-  - AC COPY
-  - AC PASTE
-  - AC CUT
-  - AC REDO
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F7
   - F8
@@ -143,11 +143,11 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - UNDO
-  - COPY
-  - PASTE
-  - CUT
-  - REDO
+  - Gui+Z
+  - Gui+C
+  - Gui+V
+  - Gui+X
+  - Gui+Sft+Z
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - OUT BLE
