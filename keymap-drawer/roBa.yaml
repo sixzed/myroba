@@ -45,21 +45,21 @@ layers:
   - RSHFT
   - RIGHT CONTROL
   FUNCTION:
+  - AC UNDO
+  - AC COPY
+  - AC PASTE
+  - AC CUT
+  - AC REDO
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&caps_word'
   - F7
   - F8
   - F9
   - F10
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Z
+  - Gui+C
+  - Gui+V
+  - Gui+X
+  - Gui+Sft+Z
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -94,11 +94,11 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - \
-  - {t: ▽, type: trans}
+  - Ctl+Z
+  - Ctl+C
+  - Ctl+V
+  - Ctl+X
+  - Ctl+Y
   - ''''
   - '4'
   - '5'
@@ -107,9 +107,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '['
+  - ']'
+  - \
   - {t: ▽, type: trans}
   - '='
   - '1'
@@ -133,21 +133,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Ble:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - VOLUME UP
+  - VOLUME DOWN
+  - MUTE
+  - PLAY
+  - STOP
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - UNDO
+  - COPY
+  - PASTE
+  - CUT
+  - REDO
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - OUT BLE
@@ -177,11 +177,11 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
   mouse:
-  - {t: ▽, type: trans}
+  - PAGE UP
   - Ctl+Sft+TAB
   - UP ARROW
   - Ctl+TAB
-  - {t: ▽, type: trans}
+  - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -231,11 +231,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Z
+  - Ctl+C
+  - Ctl+V
+  - Ctl+X
+  - Ctl+Y
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
