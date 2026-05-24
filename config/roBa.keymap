@@ -34,43 +34,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 10>;
-        };
-
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
-        };
-
-        esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <0 1>;
-        };
-    };
-
-    macros {
-        to_layer_0_win: to_layer_0 {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER &kp LS(W) &kp I &kp N &kp EXCL &kp EXCL &kp EXCL>;
-            label = "TO_LAYER_0";
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     behaviors {
         lt_to_layer_0: lt_to_layer_0 {
