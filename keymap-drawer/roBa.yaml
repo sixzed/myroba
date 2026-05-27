@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - Ble
+  - {t: TAB, h: Ble}
   - FUNCTION
   - N
   - M
@@ -38,7 +38,7 @@ layers:
   - LEFT CONTROL
   - LGUI
   - LEFT ALT
-  - {t: TAB, h: NUM}
+  - NUM
   - SPACE
   - ENTER
   - BACKSPACE
